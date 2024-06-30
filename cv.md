@@ -29,7 +29,7 @@ I have an unpleasant experience of studying for a similar specialty at another s
    + Mac
    + Linux (Ubuntu)
  
-## Code Example
+## Code Example:
 
 Given a numbers object. It's necessary to output to the console all values ​​of the object that are greater than or equal to 3.
 
@@ -50,4 +50,13 @@ for (const key in numbers) {
   }
 }
 ```
-    
+
+## Education & Courses:
+- **University**: [Emperor Aleksander I St.Petersburg State Transport University](http://pgups.ru/en/)
+
+- **Courses**:
+  [GeekBrains. Frontend программист. Цифровые Профессии](https://gb.ru/users/934b6d40-4195-45b1-97e4-29a5b04a24a3)
+
+## Languages:
+ - Russian - Native
+ - English - A2
