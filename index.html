@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container navigation-container">
+            <nav class="nav">
+                <ul>
+                    <li class="nav">Contact</li>
+                    <li class="nav">About</li>
+                    <li class="nav">Skills</li>
+                    <li class="nav">Code</li>
+                    <li class="nav">Education</li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- <h1>Artem Mironov</h1> -->
+    </header>
+    <main>
+        <div class="container main-container">
+            <section class="section">
+                <img src="./assets/IMG_1523 1.svg" class="section-main-img">
+                <div class="section-main-profile">
+                    <h1 class="section-main-profile-name">Artem Mironov</h1>
+                    <h3 class="section-main-profile-specialisation-now">Now - C&B Specialist</h3>
+                    <h3 class="section-main-profile-specialisation-then">After RSS Courses - Junior Front-End Developer</h3>
+                </div>
+            </section>
+            <section class="section section-contact" id="contact">
+                <h2>Contact Information</h2>
+                <ul>
+                    <li>Russia, St.Petersburg</li>
+                    <li>Ph: +7 (996) 793-21-33</li>
+                    <li>Email: <a href="mailto:artem.mironov@yandex.ru">artemmironov101191@gmail.com</a></li>
+                    <li>Telegram: <a href="https://t.me/artemmironov13">@ArtemMironov13</a></li>
+                    <li>Git: <a href="https://github.com/ArtemMironov11">ArtemMironov11</a></li>
+                </ul>
+            </section>
+            <section class="section section-about" id="about">
+                <h2>About Me</h2>
+                <p>Hi all!</p>
+                <p>I'm Artem, I'm 32 and I'm starting my journey in Frontend development almost from scratch.</p>
+                <p>I have an unpleasant experience of studying for a similar specialty at another school. which took almost 2 years. But it’s okay, I took the seed in my hands and went ahead for new and more necessary knowledge!</p>
+            </section>
+            <section class="section section-skills" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Programming
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </li>
+                    <li>Version Control
+                        <ul>
+                            <li>GitHub</li>
+                        </ul>
+                    </li>
+                    <li>IDE
+                        <ul>
+                            <li>VSCode</li>
+                        </ul>
+                    </li>
+                    <li>OS
+                        <ul>
+                            <li>Linux</li>
+                            <li>Mac</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="section section-code" id="code">
+                <h2>Code</h2>
+                <p>Given a numbers object. 
+                    It's necessary to output to the console all values ​
+                    ​of the object that are greater than or equal to 3.</p>
+                    <pre><code class="language-javascript">
+                        const numbers = { 
+                        key1: 12,
+                        key2: 2,
+                        key3: 4,
+                        key4: 1,
+                        key5: -244,
+                        key6: 0,
+                        key7: 7,
+                      };
+
+                      for (const key in numbers) {
+                        if (numbers[key] >=3) {
+                          console.log(numbers[key]) //12, 4, 7
+                        }
+                      };
+                      </code></pre>
+            </section>
+            <!-- <section class="section section-education" id="education"></section>
+            <section class="section section-courses" id="courses"></section>
+            <section class="section section-languages" id="languages"></section> -->
+        </div>
+    </main>
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-container-left">
+                <a href="https://github.com/ArtemMironov11">ArtemMironov11</a>
+            </div>
+            <a href="https://old.rs.school/js-stage0/" class="rss"></a>
+            <!-- <div class="footer-container-right">
+                
+            </div> -->
+        </div>
+    </footer>
+</body>
+</html>
